@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2015-09-21T18:41:55Z"
+          product-name="Kdstotop">
+        <header/>
+        <body>
+            <trans-unit id="kdstotop.description">
+                <source>Creates an icon to scroll up</source>
+                <target>Erzeugt ein Icon zum nach oben scrollen</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.iconsettings">
+                <source>Iconsettings</source>
+                <target>Iconeinstellungen</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.header">
+                <source>Title (hidden)</source>
+                <target>Titel (verborgen)</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.width">
+                <source>width</source>
+                <target>Breite</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.height">
+                <source>height</source>
+                <target>Höhe</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.align">
+                <source>align</source>
+                <target>Ausrichtung</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.left">
+                <source>left</source>
+                <target>Links</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.right">
+                <source>right</source>
+                <target>Rechts</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.pulse">
+                <source>Puls-Effect for Opener</source>
+                <target>Puls-Effekt für Icon</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.space">
+                <source>space</source>
+                <target>Abstand</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.cssclass">
+                <source>Css Class</source>
+                <target>Css Klasse</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.animationsettings">
+                <source>animationsettings</source>
+                <target>Animationseinstellungen</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.speed">
+                <source>speed</source>
+                <target>Geschwindigkeit</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.showspaceontop">
+                <source>show (space from top)</source>
+                <target>Einblenden (Abstand von Oben)</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.title">
+                <source>title</source>
+                <target>Titel</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.showxs">
+                <source>show on xs</source>
+                <target>Bei Auflösung xs anzeigen</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.showsm">
+                <source>show on sm</source>
+                <target>Bei Auflösung sm anzeigen</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.showmd">
+                <source>show on md</source>
+                <target>Bei Auflösung md anzeigen</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.showlg">
+                <source>show on lg</source>
+                <target>Bei Auflösung lg anzeigen</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.showxl">
+                <source>show on xl</source>
+                <target>Bei Auflösung xl anzeigen</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.showxxl">
+                <source>show on xxl</source>
+                <target>Bei Auflösung xxl anzeigen</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.show">
+                <source>show</source>
+                <target>Anzeigen</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.hidden">
+                <source>hidden</source>
+                <target>Verbergen</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.othersettings">
+                <source>more settings</source>
+                <target>weitere Einstellungen</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.hideonxs">
+                <source>Hidden on XS</source>
+                <target>Ausgeblendet bei XS</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.hideonsm">
+                <source>Hidden on SM</source>
+                <target>Ausgeblendet bei SM</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.hideonmd">
+                <source>Hidden on MD</source>
+                <target>Ausgeblendet bei MD</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.hideonlg">
+                <source>Hidden on LG</source>
+                <target>Ausgeblendet bei LG</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.hideonxl">
+                <source>Hidden on XL</source>
+                <target>Ausgeblendet bei XL</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.hideonxxl">
+                <source>Hidden on XXL</source>
+                <target>Ausgeblendet bei XXL</target>
+            </trans-unit>
+            <trans-unit id="kdstotop.easing">
+                <source>Scroll Effect</source>
+                <target>Scroll-Effekt</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
+
+

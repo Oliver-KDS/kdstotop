@@ -1,0 +1,4 @@
+config {
+    # cat=KDSTOTOP/xxx/070; type=boolean[1]; label=LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.loadeasing
+    loadEasing = 0
+}

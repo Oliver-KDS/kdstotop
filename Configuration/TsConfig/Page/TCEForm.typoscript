@@ -1,0 +1,34 @@
+TCEFORM {
+    tt_content {
+        header_icon_width.types.kdstotop_kdstotop.disabled = 1
+        header_icon_height.types.kdstotop_kdstotop.disabled = 1
+        header_icon_halign.types.kdstotop_kdstotop.disabled = 1
+        header_icon_valign.types.kdstotop_kdstotop.disabled = 1
+        header_icon_space.types.kdstotop_kdstotop.disabled = 1
+        headerspace.types.kdstotop_kdstotop.disabled = 1
+        headerspace_bottom.types.kdstotop_kdstotop.disabled = 1
+        header_icon.types.kdstotop_kdstotop.disabled = 1
+        header_icon_ordericon.types.kdstotop_kdstotop.disabled = 1
+        header_own_css.types.kdstotop_kdstotop.disabled = 1
+        subheader_own_css.types.kdstotop_kdstotop.disabled = 1
+        element_own_css.types.kdstotop_kdstotop.disabled = 1
+        visible_xxl.types.kdstotop_kdstotop.disabled = 1
+        visible_xl.types.kdstotop_kdstotop.disabled = 1
+        visible_lg.types.kdstotop_kdstotop.disabled = 1
+        visible_md.types.kdstotop_kdstotop.disabled = 1
+        visible_sm.types.kdstotop_kdstotop.disabled = 1
+        visible_xs.types.kdstotop_kdstotop.disabled = 1
+        own_css.types.kdstotop_kdstotop.disabled = 1
+        padding_left.types.kdstotop_kdstotop.disabled = 1
+        padding_right.types.kdstotop_kdstotop.disabled = 1
+        padding_top.types.kdstotop_kdstotop.disabled = 1
+        padding_bottom.types.kdstotop_kdstotop.disabled = 1
+        margin_left.types.kdstotop_kdstotop.disabled = 1
+        margin_right.types.kdstotop_kdstotop.disabled = 1
+        margin_top.types.kdstotop_kdstotop.disabled = 1
+        margin_bottom.types.kdstotop_kdstotop.disabled = 1
+        kdsstyles.types.kdstotop_kdstotop.disabled = 1
+        date.types.kdstotop_kdstotop.disabled = 1
+        header_link.types.kdstotop_kdstotop.disabled = 1
+    }
+}

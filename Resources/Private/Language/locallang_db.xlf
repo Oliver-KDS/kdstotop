@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2017-04-07T18:30:06Z"
+          product-name="Kdstotop">
+        <header/>
+        <body>
+            <trans-unit id="kdstotop">
+                <source>Kds-ToTop</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.iconsettings">
+                <source>Iconsettings</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.description">
+                <source>Creates an icon to scroll up</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.header">
+                <source>Title (hidden)</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.width">
+                <source>width</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.height">
+                <source>height</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.align">
+                <source>align</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.left">
+                <source>left</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.right">
+                <source>right</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.pulse">
+                <source>Puls-Effect for Opener</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.space">
+                <source>space</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.cssclass">
+                <source>Css Class</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.animationsettings">
+                <source>animationsettings</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.speed">
+                <source>speed</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.showspaceontop">
+                <source>show (space from top)</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.title">
+                <source>title</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.showxs">
+                <source>show on xs</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.showsm">
+                <source>show on sm</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.showmd">
+                <source>show on md</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.showlg">
+                <source>show on lg</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.showxl">
+                <source>show on xl</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.showxxl">
+                <source>show on xxl</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.show">
+                <source>show</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.hidden">
+                <source>hidden</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.othersettings">
+                <source>more settings</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.hideonxs">
+                <source>Hidden on XS</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.hideonsm">
+                <source>Hidden on SM</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.hideonmd">
+                <source>Hidden on MD</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.hideonlg">
+                <source>Hidden on LG</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.hideonxl">
+                <source>Hidden on XL</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.hideonxxl">
+                <source>Hidden on XXL</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.easing">
+                <source>Scroll Effect</source>
+            </trans-unit>
+            <trans-unit id="kdstotop.loadeasing">
+                <source>Load jQuery Easing Plugin</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

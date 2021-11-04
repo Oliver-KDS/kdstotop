@@ -1,0 +1,47 @@
+{namespace be = TYPO3\CMS\Backend\ViewHelpers}
+<link rel="stylesheet" href="{f:uri.resource(path:'Css/kdstotop_be.css',extensionName: 'kdstotop')}">
+<div class="row kdstotop-row p-4 m-1  position-relative">
+    <div class="d-flex col-12 justify-content-start mb-3">
+        <h4 class="fw-bold text-white fst-italic">
+            <f:image src="typo3conf/ext/kdstotop/Resources/Public/Icons/Extension.svg" width="25" class="me-1"/>
+            <f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop"/>
+        </h4>
+    </div>
+    <div class="col-12">
+        <be:link.editRecord uid="{uid}" table="tt_content" class="stretched-link"></be:link.editRecord>
+        <table class="table table-kdstotop table-responsive table-borderless table-dark">
+            <tr>
+                <td><f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.speed"/>:</td><td>{pi_flexform_transformed.speed}</td>
+            </tr>
+            <tr>
+                <td>Position:</td><td>{pi_flexform_transformed.position}</td>
+            </tr>
+            <tr>
+                <td><f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.showspaceontop"/>:</td><td>{pi_flexform_transformed.show}</td>
+            </tr>
+            <tr>
+                <td><f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.easing"/></td>
+                <td>{pi_flexform_transformed.easing}</td>
+            </tr>
+
+            <f:if condition="{pi_flexform_transformed.xs}== 'd-none d-xs-block'">
+                <tr><td><f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.hideonxs"/></td><td></td></tr>
+            </f:if>
+            <f:if condition="{pi_flexform_transformed.sm}== 'd-sm-none'">
+                <tr><td><f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.hideonsm"/></td><td></td></tr>
+            </f:if>
+            <f:if condition="{pi_flexform_transformed.md}== 'd-md-none'">
+                <tr><td><f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.hideonmd"/></td><td></td></tr>
+            </f:if>
+            <f:if condition="{pi_flexform_transformed.lg}== 'd-lg-none'">
+                <tr><td><f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.hideonlg"/></td><td></td></tr>
+            </f:if>
+            <f:if condition="{pi_flexform_transformed.xl}== 'd-xl-none'">
+                <tr><td><f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.hideonxl"/></td><td></td></tr>
+            </f:if>
+            <f:if condition="{pi_flexform_transformed.xxl}== 'd-xxl-none'">
+                <tr><td><f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.hideonxxl"/></td><td></td></tr>
+            </f:if>
+        </table>
+    </div>
+</div>

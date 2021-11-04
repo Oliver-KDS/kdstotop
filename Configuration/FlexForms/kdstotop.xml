@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <tabeins>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.iconsettings
+                    </sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <imagewidth>
+                        <TCEforms>
+                            <label>LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.width</label>
+                            <config>
+                                <type>input</type>
+                                <size>20</size>
+                            </config>
+                        </TCEforms>
+                    </imagewidth>
+                    <imageheight>
+                        <TCEforms>
+                            <label>LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.height</label>
+                            <config>
+                                <type>input</type>
+                                <size>20</size>
+                            </config>
+                        </TCEforms>
+                    </imageheight>
+                    <position>
+                        <TCEforms>
+                            <label>LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.align</label>
+                            <config>
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.left
+                                        </numIndex>
+                                        <numIndex index="1">left</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.right
+                                        </numIndex>
+                                        <numIndex index="1">right</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </position>
+                    <pulse>
+                        <TCEforms>
+                            <config>
+                                <type>check</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.pulse</numIndex>
+                                        <numIndex index="1"></numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </pulse>
+                    <space>
+                        <TCEforms>
+                            <label>LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.space</label>
+                            <config>
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">10</numIndex>
+                                        <numIndex index="1">10</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">20</numIndex>
+                                        <numIndex index="1">20</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">30</numIndex>
+                                        <numIndex index="1">30</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">40</numIndex>
+                                        <numIndex index="1">40</numIndex>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <numIndex index="0">50</numIndex>
+                                        <numIndex index="1">50</numIndex>
+                                    </numIndex>
+                                    <numIndex index="6" type="array">
+                                        <numIndex index="0">60</numIndex>
+                                        <numIndex index="1">60</numIndex>
+                                    </numIndex>
+                                    <numIndex index="7" type="array">
+                                        <numIndex index="0">70</numIndex>
+                                        <numIndex index="1">70</numIndex>
+                                    </numIndex>
+                                    <numIndex index="8" type="array">
+                                        <numIndex index="0">80</numIndex>
+                                        <numIndex index="1">80</numIndex>
+                                    </numIndex>
+                                    <numIndex index="9" type="array">
+                                        <numIndex index="0">90</numIndex>
+                                        <numIndex index="1">90</numIndex>
+                                    </numIndex>
+                                    <numIndex index="10" type="array">
+                                        <numIndex index="0">100</numIndex>
+                                        <numIndex index="1">100</numIndex>
+                                    </numIndex>
+                                    <numIndex index="11" type="array">
+                                        <numIndex index="0">110</numIndex>
+                                        <numIndex index="1">110</numIndex>
+                                    </numIndex>
+                                    <numIndex index="12" type="array">
+                                        <numIndex index="0">120</numIndex>
+                                        <numIndex index="1">120</numIndex>
+                                    </numIndex>
+                                    <numIndex index="13" type="array">
+                                        <numIndex index="0">130</numIndex>
+                                        <numIndex index="1">130</numIndex>
+                                    </numIndex>
+                                    <numIndex index="14" type="array">
+                                        <numIndex index="0">140</numIndex>
+                                        <numIndex index="1">140</numIndex>
+                                    </numIndex>
+                                    <numIndex index="15" type="array">
+                                        <numIndex index="0">150</numIndex>
+                                        <numIndex index="1">150</numIndex>
+                                    </numIndex>
+                                    <numIndex index="16" type="array">
+                                        <numIndex index="0">160</numIndex>
+                                        <numIndex index="1">160</numIndex>
+                                    </numIndex>
+                                    <numIndex index="17" type="array">
+                                        <numIndex index="0">170</numIndex>
+                                        <numIndex index="1">170</numIndex>
+                                    </numIndex>
+                                    <numIndex index="18" type="array">
+                                        <numIndex index="0">180</numIndex>
+                                        <numIndex index="1">180</numIndex>
+                                    </numIndex>
+                                    <numIndex index="19" type="array">
+                                        <numIndex index="0">190</numIndex>
+                                        <numIndex index="1">190</numIndex>
+                                    </numIndex>
+                                    <numIndex index="20" type="array">
+                                        <numIndex index="0">200</numIndex>
+                                        <numIndex index="1">200</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </space>
+                    <cssclass>
+                        <TCEforms>
+                            <label>LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.cssclass</label>
+                            <config>
+                                <type>input</type>
+                                <size>20</size>
+                            </config>
+                        </TCEforms>
+                    </cssclass>
+                </el>
+            </ROOT>
+        </tabeins>
+        <tabzwei>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.animationsettings
+                    </sheetTitle>
+                </TCEforms>
+                <el>
+                    <easing>
+                        <TCEforms>
+                            <label>LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.easing</label>
+                            <config>
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <default>linear</default>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">easeInQuad</numIndex>
+                                        <numIndex index="1">easeInQuad</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">easeOutQuad</numIndex>
+                                        <numIndex index="1">easeOutQuad</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">easeInOutQuad</numIndex>
+                                        <numIndex index="1">easeInOutQuad</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">easeInCubic</numIndex>
+                                        <numIndex index="1">easeInCubic</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">easeOutCubic</numIndex>
+                                        <numIndex index="1">easeOutCubic</numIndex>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <numIndex index="0">easeInOutCubic</numIndex>
+                                        <numIndex index="1">easeInOutCubic</numIndex>
+                                    </numIndex>
+                                    <numIndex index="6" type="array">
+                                        <numIndex index="0">easeInQuart</numIndex>
+                                        <numIndex index="1">easeInQuart</numIndex>
+                                    </numIndex>
+                                    <numIndex index="7" type="array">
+                                        <numIndex index="0">easeOutQuart</numIndex>
+                                        <numIndex index="1">easeOutQuart</numIndex>
+                                    </numIndex>
+                                    <numIndex index="8" type="array">
+                                        <numIndex index="0">easeInOutQuart</numIndex>
+                                        <numIndex index="1">easeInOutQuart</numIndex>
+                                    </numIndex>
+                                    <numIndex index="9" type="array">
+                                        <numIndex index="0">easeInQuint</numIndex>
+                                        <numIndex index="1">easeInQuint</numIndex>
+                                    </numIndex>
+                                    <numIndex index="10" type="array">
+                                        <numIndex index="0">easeOutQuint</numIndex>
+                                        <numIndex index="1">easeOutQuint</numIndex>
+                                    </numIndex>
+                                    <numIndex index="11" type="array">
+                                        <numIndex index="0">easeInOutQuint</numIndex>
+                                        <numIndex index="1">easeInOutQuint</numIndex>
+                                    </numIndex>
+                                    <numIndex index="12" type="array">
+                                        <numIndex index="0">easeInSine</numIndex>
+                                        <numIndex index="1">easeInSine</numIndex>
+                                    </numIndex>
+                                    <numIndex index="13" type="array">
+                                        <numIndex index="0">easeOutSine</numIndex>
+                                        <numIndex index="1">easeOutSine</numIndex>
+                                    </numIndex>
+                                    <numIndex index="14" type="array">
+                                        <numIndex index="0">easeInOutSine</numIndex>
+                                        <numIndex index="1">easeInOutSine</numIndex>
+                                    </numIndex>
+                                    <numIndex index="15" type="array">
+                                        <numIndex index="0">easeInExpo</numIndex>
+                                        <numIndex index="1">easeInExpo</numIndex>
+                                    </numIndex>
+                                    <numIndex index="16" type="array">
+                                        <numIndex index="0">easeOutExpo</numIndex>
+                                        <numIndex index="1">easeOutExpo</numIndex>
+                                    </numIndex>
+                                    <numIndex index="17" type="array">
+                                        <numIndex index="0">easeInOutExpo</numIndex>
+                                        <numIndex index="1">easeInOutExpo</numIndex>
+                                    </numIndex>
+                                    <numIndex index="18" type="array">
+                                        <numIndex index="0">easeInCirc</numIndex>
+                                        <numIndex index="1">easeInCirc</numIndex>
+                                    </numIndex>
+                                    <numIndex index="19" type="array">
+                                        <numIndex index="0">easeOutCirc</numIndex>
+                                        <numIndex index="1">easeOutCirc</numIndex>
+                                    </numIndex>
+                                    <numIndex index="20" type="array">
+                                        <numIndex index="0">easeInOutCirc</numIndex>
+                                        <numIndex index="1">easeInOutCirc</numIndex>
+                                    </numIndex>
+                                    <numIndex index="21" type="array">
+                                        <numIndex index="0">easeInElastic</numIndex>
+                                        <numIndex index="1">easeInElastic</numIndex>
+                                    </numIndex>
+                                    <numIndex index="22" type="array">
+                                        <numIndex index="0">easeOutElastic</numIndex>
+                                        <numIndex index="1">easeOutElastic</numIndex>
+                                    </numIndex>
+                                    <numIndex index="23" type="array">
+                                        <numIndex index="0">easeInOutElastic</numIndex>
+                                        <numIndex index="1">easeInOutElastic</numIndex>
+                                    </numIndex>
+                                    <numIndex index="24" type="array">
+                                        <numIndex index="0">easeInBack</numIndex>
+                                        <numIndex index="1">easeInBack</numIndex>
+                                    </numIndex>
+                                    <numIndex index="25" type="array">
+                                        <numIndex index="0">easeOutBack</numIndex>
+                                        <numIndex index="1">easeOutBack</numIndex>
+                                    </numIndex>
+                                    <numIndex index="26" type="array">
+                                        <numIndex index="0">easeInOutBack</numIndex>
+                                        <numIndex index="1">easeInOutBack</numIndex>
+                                    </numIndex>
+                                    <numIndex index="27" type="array">
+                                        <numIndex index="0">easeInBounce</numIndex>
+                                        <numIndex index="1">easeInBounce</numIndex>
+                                    </numIndex>
+                                    <numIndex index="28" type="array">
+                                        <numIndex index="0">easeOutBounce</numIndex>
+                                        <numIndex index="1">easeOutBounce</numIndex>
+                                    </numIndex>
+                                    <numIndex index="29" type="array">
+                                        <numIndex index="0">linear</numIndex>
+                                        <numIndex index="1">linear</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </easing>
+                    <speed>
+                        <TCEforms>
+                            <label>LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.speed</label>
+                            <config>
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">100</numIndex>
+                                        <numIndex index="1">100</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">200</numIndex>
+                                        <numIndex index="1">200</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">300</numIndex>
+                                        <numIndex index="1">300</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">400</numIndex>
+                                        <numIndex index="1">400</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">500</numIndex>
+                                        <numIndex index="1">500</numIndex>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <numIndex index="0">600</numIndex>
+                                        <numIndex index="1">600</numIndex>
+                                    </numIndex>
+                                    <numIndex index="6" type="array">
+                                        <numIndex index="0">700</numIndex>
+                                        <numIndex index="1">700</numIndex>
+                                    </numIndex>
+                                    <numIndex index="7" type="array">
+                                        <numIndex index="0">800</numIndex>
+                                        <numIndex index="1">800</numIndex>
+                                    </numIndex>
+                                    <numIndex index="8" type="array">
+                                        <numIndex index="0">900</numIndex>
+                                        <numIndex index="1">900</numIndex>
+                                    </numIndex>
+                                    <numIndex index="9" type="array">
+                                        <numIndex index="0">1000</numIndex>
+                                        <numIndex index="1">1000</numIndex>
+                                    </numIndex>
+                                    <numIndex index="10" type="array">
+                                        <numIndex index="0">1100</numIndex>
+                                        <numIndex index="1">1100</numIndex>
+                                    </numIndex>
+                                    <numIndex index="11" type="array">
+                                        <numIndex index="0">1200</numIndex>
+                                        <numIndex index="1">1200</numIndex>
+                                    </numIndex>
+                                    <numIndex index="12" type="array">
+                                        <numIndex index="0">1300</numIndex>
+                                        <numIndex index="1">1300</numIndex>
+                                    </numIndex>
+                                    <numIndex index="13" type="array">
+                                        <numIndex index="0">1400</numIndex>
+                                        <numIndex index="1">1400</numIndex>
+                                    </numIndex>
+                                    <numIndex index="14" type="array">
+                                        <numIndex index="0">1500</numIndex>
+                                        <numIndex index="1">1500</numIndex>
+                                    </numIndex>
+                                    <numIndex index="15" type="array">
+                                        <numIndex index="0">1600</numIndex>
+                                        <numIndex index="1">1600</numIndex>
+                                    </numIndex>
+                                    <numIndex index="16" type="array">
+                                        <numIndex index="0">1700</numIndex>
+                                        <numIndex index="1">1700</numIndex>
+                                    </numIndex>
+                                    <numIndex index="17" type="array">
+                                        <numIndex index="0">1800</numIndex>
+                                        <numIndex index="1">1800</numIndex>
+                                    </numIndex>
+                                    <numIndex index="18" type="array">
+                                        <numIndex index="0">1900</numIndex>
+                                        <numIndex index="1">1900</numIndex>
+                                    </numIndex>
+                                    <numIndex index="19" type="array">
+                                        <numIndex index="0">2000</numIndex>
+                                        <numIndex index="1">2000</numIndex>
+                                    </numIndex>
+                                    <numIndex index="20" type="array">
+                                        <numIndex index="0">2100</numIndex>
+                                        <numIndex index="1">2100</numIndex>
+                                    </numIndex>
+                                    <numIndex index="21" type="array">
+                                        <numIndex index="0">2200</numIndex>
+                                        <numIndex index="1">2200</numIndex>
+                                    </numIndex>
+                                    <numIndex index="22" type="array">
+                                        <numIndex index="0">2300</numIndex>
+                                        <numIndex index="1">2300</numIndex>
+                                    </numIndex>
+                                    <numIndex index="23" type="array">
+                                        <numIndex index="0">2400</numIndex>
+                                        <numIndex index="1">2400</numIndex>
+                                    </numIndex>
+                                    <numIndex index="24" type="array">
+                                        <numIndex index="0">2500</numIndex>
+                                        <numIndex index="1">2500</numIndex>
+                                    </numIndex>
+                                    <numIndex index="25" type="array">
+                                        <numIndex index="0">2600</numIndex>
+                                        <numIndex index="1">2600</numIndex>
+                                    </numIndex>
+                                    <numIndex index="26" type="array">
+                                        <numIndex index="0">2700</numIndex>
+                                        <numIndex index="1">2700</numIndex>
+                                    </numIndex>
+                                    <numIndex index="27" type="array">
+                                        <numIndex index="0">2800</numIndex>
+                                        <numIndex index="1">2800</numIndex>
+                                    </numIndex>
+                                    <numIndex index="28" type="array">
+                                        <numIndex index="0">2900</numIndex>
+                                        <numIndex index="1">2900</numIndex>
+                                    </numIndex>
+                                    <numIndex index="29" type="array">
+                                        <numIndex index="0">3000</numIndex>
+                                        <numIndex index="1">3000</numIndex>
+                                    </numIndex>
+                                    <numIndex index="30" type="array">
+                                        <numIndex index="0">3100</numIndex>
+                                        <numIndex index="1">3100</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </speed>
+                    <show>
+                        <TCEforms>
+                            <label>LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.showspaceontop
+                            </label>
+                            <config>
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">100</numIndex>
+                                        <numIndex index="1">100</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">200</numIndex>
+                                        <numIndex index="1">200</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">300</numIndex>
+                                        <numIndex index="1">300</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">400</numIndex>
+                                        <numIndex index="1">400</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">500</numIndex>
+                                        <numIndex index="1">500</numIndex>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <numIndex index="0">600</numIndex>
+                                        <numIndex index="1">600</numIndex>
+                                    </numIndex>
+                                    <numIndex index="6" type="array">
+                                        <numIndex index="0">700</numIndex>
+                                        <numIndex index="1">700</numIndex>
+                                    </numIndex>
+                                    <numIndex index="7" type="array">
+                                        <numIndex index="0">800</numIndex>
+                                        <numIndex index="1">800</numIndex>
+                                    </numIndex>
+                                    <numIndex index="8" type="array">
+                                        <numIndex index="0">900</numIndex>
+                                        <numIndex index="1">900</numIndex>
+                                    </numIndex>
+                                    <numIndex index="9" type="array">
+                                        <numIndex index="0">1000</numIndex>
+                                        <numIndex index="1">1000</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </show>
+                </el>
+            </ROOT>
+        </tabzwei>
+        <tabdrei>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>SEO - Usability</sheetTitle>
+                </TCEforms>
+                <el>
+                    <title>
+                        <TCEforms>
+                            <label>LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.title</label>
+                            <config>
+                                <type>input</type>
+                                <size>20</size>
+                            </config>
+                        </TCEforms>
+                    </title>
+                    <xs>
+                        <TCEforms>
+                            <label>LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.showxs</label>
+                            <config>
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.show
+                                        </numIndex>
+                                        <numIndex index="1">d-xs-block</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.hidden
+                                        </numIndex>
+                                        <numIndex index="1">d-none d-xs-block</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </xs>
+                    <sm>
+                        <TCEforms>
+                            <label>LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.showsm</label>
+                            <config>
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.show
+                                        </numIndex>
+                                        <numIndex index="1">d-sm-block</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.hidden
+                                        </numIndex>
+                                        <numIndex index="1">d-sm-none</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </sm>
+                    <md>
+                        <TCEforms>
+                            <label>LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.showmd</label>
+                            <config>
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.show
+                                        </numIndex>
+                                        <numIndex index="1">d-md-block</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.hidden
+                                        </numIndex>
+                                        <numIndex index="1">d-md-none</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </md>
+                    <lg>
+                        <TCEforms>
+                            <label>LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.showlg</label>
+                            <config>
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.show
+                                        </numIndex>
+                                        <numIndex index="1">d-lg-block</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.hidden
+                                        </numIndex>
+                                        <numIndex index="1">d-lg-none</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </lg>
+                    <xl>
+                        <TCEforms>
+                            <label>LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.showxl</label>
+                            <config>
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.show
+                                        </numIndex>
+                                        <numIndex index="1">d-xl-block</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.hidden
+                                        </numIndex>
+                                        <numIndex index="1">d-xl-none</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </xl>
+                    <xxl>
+                        <TCEforms>
+                            <label>LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.showxxl</label>
+                            <config>
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.show
+                                        </numIndex>
+                                        <numIndex index="1">d-xxl-block</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:kdstotop/Resources/Private/Language/locallang_db:kdstotop.hidden
+                                        </numIndex>
+                                        <numIndex index="1">d-xxl-none</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </xxl>
+                </el>
+            </ROOT>
+        </tabdrei>
+    </sheets>
+</T3DataStructure>

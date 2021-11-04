@@ -1,0 +1,44 @@
+lib.contentElement {
+    templateRootPaths {
+        1 = EXT:kdstotop/Resources/Private/Templates/
+    }
+}
+
+tt_content {
+    kdstotop_kdstotop < lib.contentElement
+    kdstotop_kdstotop {
+        templateName = Kdstotop.html
+        dataProcessing {
+            5 = Kdstotop\Kdstotop\DataProcessing\FlexFormProcessor
+            5 {
+                options {
+                    if.isTrue.field = pi_flexform
+                    fieldName = pi_flexform
+                    as = flexform
+                }
+            }
+
+            10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+            10 {
+                references {
+                    table = tt_content
+                    fieldName = image
+                }
+
+                as = images
+            }
+        }
+    }
+}
+
+page {
+    includeCSS {
+        kdstotopcss = EXT:kdstotop/Resources/Public/Css/kdstotop.css
+    }
+
+    includeJSFooter {
+        kdstotopjs = EXT:kdstotop/Resources/Public/JavaScript/kdstotop.js
+        easing = EXT:kdstotop/Resources/Public/JavaScript/jquery.easing.min.js
+        easing.if.isTrue = {$config.loadEasing}
+    }
+}

@@ -103,6 +103,12 @@
             <trans-unit id="kdstotop.loadeasing">
                 <source>Load jQuery Easing Plugin</source>
             </trans-unit>
+            <trans-unit id="kdstotop.createdby">
+                <source>Created By: </source>
+            </trans-unit>
+            <trans-unit id="kdstotop.createdate">
+                <source>Create Date: </source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

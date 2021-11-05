@@ -9,13 +9,11 @@ tt_content {
     kdstotop_kdstotop {
         templateName = Kdstotop.html
         dataProcessing {
-            5 = Kdstotop\Kdstotop\DataProcessing\FlexFormProcessor
+            5 = TYPO3\CMS\Frontend\DataProcessing\FlexFormProcessor
             5 {
-                options {
                     if.isTrue.field = pi_flexform
                     fieldName = pi_flexform
                     as = flexform
-                }
             }
 
             10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor

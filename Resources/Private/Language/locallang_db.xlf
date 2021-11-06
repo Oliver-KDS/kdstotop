@@ -98,7 +98,7 @@
                 <source>Hidden on XXL</source>
             </trans-unit>
             <trans-unit id="kdstotop.easing">
-                <source>Scroll Effect</source>
+                <source>Scroll Effect: </source>
             </trans-unit>
             <trans-unit id="kdstotop.loadeasing">
                 <source>Load jQuery Easing Plugin</source>

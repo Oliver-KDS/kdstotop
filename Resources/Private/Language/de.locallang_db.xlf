@@ -125,8 +125,8 @@
                 <target>Ausgeblendet bei XXL</target>
             </trans-unit>
             <trans-unit id="kdstotop.easing">
-                <source>Scroll Effect</source>
-                <target>Scroll-Effekt</target>
+                <source>Scroll Effect: </source>
+                <target>Scroll-Effekt: </target>
             </trans-unit>
             <trans-unit id="kdstotop.createdby">
                 <source>Created By: </source>

@@ -13,14 +13,13 @@
     </div>
     <div class="col-12 col-lg-6">
         <div class="col-12 d-flex justify-content-end">
-            <f:image src="typo3conf/ext/kdstotop/Resources/Public/Icons/sign.svg" width="30" class="kds-kdstotop-sign"
+            <f:image src="typo3conf/ext/kdstotop/Resources/Public/Icons/sign.svg" width="30" class="kds-totop-sign"
                      additionalAttributes="{data-bs-target:'#collapseExample{uid}',data-bs-toggle:'collapse'}"/>
         </div>
     </div>
     <div class="collapse col-12" id="collapseExample{uid}">
         <div class="card card-body card-dark mt-1">
             <div class="row">
-
                 <div class="col-12">
                     <table class="table table-responsive table-kds-ce">
                         <tr>
@@ -31,11 +30,38 @@
                             <td><f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.createdate"/></td>
                             <td><f:format.date date="{crdate}" format="d.m.Y H:i:s"/></td>
                         </tr>
-
+                        <tr>
+                            <td><f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.speed"/>:</td><td>{pi_flexform_transformed.speed}</td>
+                        </tr>
+                        <tr>
+                            <td>Position:</td><td>{pi_flexform_transformed.position}</td>
+                        </tr>
+                        <tr>
+                            <td><f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.showspaceontop"/>:</td><td>{pi_flexform_transformed.show}</td>
+                        </tr>
+                        <tr>
+                            <td><f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.easing"/></td>
+                            <td>{pi_flexform_transformed.easing}</td>
+                        </tr>
+                        <f:if condition="{pi_flexform_transformed.xs}== 'd-none d-xs-block'">
+                            <tr><td><f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.hideonxs"/></td><td></td></tr>
+                        </f:if>
+                        <f:if condition="{pi_flexform_transformed.sm}== 'd-sm-none'">
+                            <tr><td><f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.hideonsm"/></td><td></td></tr>
+                        </f:if>
+                        <f:if condition="{pi_flexform_transformed.md}== 'd-md-none'">
+                            <tr><td><f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.hideonmd"/></td><td></td></tr>
+                        </f:if>
+                        <f:if condition="{pi_flexform_transformed.lg}== 'd-lg-none'">
+                            <tr><td><f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.hideonlg"/></td><td></td></tr>
+                        </f:if>
+                        <f:if condition="{pi_flexform_transformed.xl}== 'd-xl-none'">
+                            <tr><td><f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.hideonxl"/></td><td></td></tr>
+                        </f:if>
+                        <f:if condition="{pi_flexform_transformed.xxl}== 'd-xxl-none'">
+                            <tr><td><f:translate key="LLL:EXT:kdstotop/Resources/Private/Language/locallang_db.xlf:kdstotop.hideonxxl"/></td><td></td></tr>
+                        </f:if>
                     </table>
-                </div>
-                <div class="col-12">
-                    unten
                 </div>
             </div>
         </div>
